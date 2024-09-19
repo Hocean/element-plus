@@ -3,6 +3,7 @@
     <el-time-picker v-model="value1" placeholder="Arbitrary time" />
     <el-time-picker
       v-model="value2"
+      value-format="hh:mm:ss"
       arrow-control
       placeholder="Arbitrary time"
     />
